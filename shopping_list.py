@@ -9,4 +9,5 @@ for i in lista_zakupów.items():
     s = s + len (i[1])
 print (f"W sumie kupuję {s} produktów.")
 print ("Jestem zadowolona z takich zakupów.")
+print ("Ale pójdę jeszcze do kwiaciarni.")
     
