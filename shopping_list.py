@@ -1,6 +1,7 @@
 lista_zakupów = {
 "piekarnia" : ["chleb", "pączek", "bułki"],
-"warzywniak" : ["marchew", "seler", "rukola"]
+"warzywniak" : ["marchew", "seler", "rukola"],
+"kwiaciarnia" : ["róże", "tulipany", "goździki"]
 }
 print ("Lista zakupów")
 s = 0
@@ -9,5 +10,5 @@ for i in lista_zakupów.items():
     s = s + len (i[1])
 print (f"W sumie kupuję {s} produktów.")
 print ("Jestem zadowolona z takich zakupów.")
-print ("Ale pójdę jeszcze do kwiaciarni.")
+print ("Ale wstąpię jeszcze w jedno miejsce.")
     
